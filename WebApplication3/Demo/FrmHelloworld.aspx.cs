@@ -13,5 +13,10 @@ namespace WebApplication3.Demo
         {
 
         }
+
+        protected void btnClick_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = txtInput.Text;
+        }
     }
 }
